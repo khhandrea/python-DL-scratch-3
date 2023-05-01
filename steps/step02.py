@@ -15,7 +15,7 @@ class Function:
         raise NotImplementedError()
     
 class Square(Function):
-    def forward(self, x: float) -> float:
+    def forward(self, x: np.ndarray) -> np.ndarray:
         return x ** 2
     
 x = Variable(np.array(10))
