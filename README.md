@@ -3,8 +3,8 @@
 python practice "Deep Learning from Scratch 3"
 
 ## File description
-- [dezero/*](##dezero/*)
-- [steps/*](##steps/*)
+- [dezero/*](#dezero/*)
+- [steps/*](#steps/*)
 
 ## dezero/*
 | Name | Description |
