@@ -1,11 +1,11 @@
 import numpy as np
 
 class Variable:
-    def __init__(self, data):
+    def __init__(self, data: np.ndarray):
         self.data = data
 
 data = np.array(1.0)
-x = Variable(data)
+x = Variable(3)
 print(x)
 print(x.data)
 

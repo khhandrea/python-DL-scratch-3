@@ -1,7 +1,7 @@
 import numpy as np
 
 class Variable:
-    def __init__(self, data):
+    def __init__(self, data: np.ndarray):
         self.data = data
 
 class Function:
@@ -11,7 +11,7 @@ class Function:
         output = Variable(y)
         return output
     
-    def forward(self, in_data: float) -> float:
+    def forward(self, in_data: np.ndarray) -> np.ndarray:
         raise NotImplementedError()
     
 class Square(Function):
