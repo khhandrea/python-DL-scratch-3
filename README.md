@@ -9,7 +9,8 @@ python practice "Deep Learning from Scratch 3"
 ## dezero/*
 | Name | Description |
 | --- | --- |
-|  |  |
+| __init__.py | Default initialized context |
+| core_simple.py | Minimal dezero features |
 
 
 ## steps/*
