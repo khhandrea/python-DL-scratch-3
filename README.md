@@ -40,3 +40,8 @@ python practice "Deep Learning from Scratch 3"
 | step22.py | 연산자 오버로드(3): -, /, 거듭제곱 | 180 |
 | step23.py | 패키지로 정리 | 188 |
 | step24.py | 복잡한 함수의 미분 | 196 |
+| ~~step25.py~~ | 계산 그래프 시각화(1) | 209 |
+| step26.py | 계산 그래프 시각화(2) | 196 |
+| step27.py | 테일러 급수 미분 | 225 |
+| step28.py | 함수 최적화 | 233 |
+| step29.py | 뉴턴 방법으로 푸는 최적화(수동 계산) | 239 |
