@@ -45,3 +45,6 @@ python practice "Deep Learning from Scratch 3"
 | step27.py | 테일러 급수 미분 | 225 |
 | step28.py | 함수 최적화 | 233 |
 | step29.py | 뉴턴 방법으로 푸는 최적화(수동 계산) | 239 |
+| ~~step30.py~~ | 고차 미분(준 비편) | 247 |
+| ~~step31.py~~ | 고차 미분(이론 편) | 255 |
+| ~~step32.py~~ | 고차 미분(구현 편) (dezero folder에 구현) | 261 |
