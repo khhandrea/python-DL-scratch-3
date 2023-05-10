@@ -87,7 +87,7 @@ class Variable:
             f = heapq.heappop(funcs)[1]
             gys = [output().grad for output in f.outputs]
 
-            with using_config('enable_backprop', create_graph):
+            with using_config('enable_backdrop', create_graph):
                 gxs = f.backward(*gys)
                 if not isinstance(gxs, tuple):
                     gxs = (gxs, )
@@ -228,7 +228,7 @@ class Pow(Function):
         return y
 
     def backward(self, gy: ndarray) -> ndarray:
-        x = self.inputs
+        x, = self.inputs
         c = self.c
 
         gx = c * x ** (c - 1) * gy

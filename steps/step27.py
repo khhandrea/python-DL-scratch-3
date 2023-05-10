@@ -46,7 +46,7 @@ y = my_sin(x)  # , threshold=1e-150)
 y.backward()
 print('--- approximate sin ---')
 print('y.data:', y.data)
-print('x.grad:', x.grad)
+print('x.grad:',x.grad)
 
 x.name = 'x'
 y.name = 'y'
