@@ -175,7 +175,7 @@ class Neg(Function):
     def forward(self, x: ndarray) -> ndarray:
         return -x
 
-    def forward(self, gy: ndarray) -> ndarray:
+    def backward(self, gy: ndarray) -> ndarray:
         return -gy
     
 def neg(x):
