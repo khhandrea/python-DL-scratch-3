@@ -48,4 +48,5 @@ python practice "Deep Learning from Scratch 3"
 | ~~step30.py~~ | 고차 미분(준 비편) | 247 |
 | ~~step31.py~~ | 고차 미분(이론 편) | 255 |
 | ~~step32.py~~ | 고차 미분(구현 편) (dezero folder에 구현) | 261 |
-| step32.py | 뉴턴 방법으로 푸는 최적화(자동 계산) | 267 |
+| step33.py | 뉴턴 방법으로 푸는 최적화(자동 계산) | 267 |
+| Step34.py | sin 함수 고차 미분 | 271 |
